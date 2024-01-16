@@ -9,6 +9,7 @@ class PruebaSimpleTest {
     PruebaSimple miPrueba = new PruebaSimple();
     @Test
     void prueba1() {
+        //revisa si la salida es falsa, entonces pasa los tests
         assertEquals(false, miPrueba.prueba1(1,2));
     }
 }
