@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class EmpleadoBRTest {
+    //Version 1.0
     EmpleadoBR empleado = new EmpleadoBR();
     @Test
     void calculaSalarioBruto() throws BRException{
